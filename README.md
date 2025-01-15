@@ -2,10 +2,9 @@
 ## AstoPet: AI Interactive Security Pet
 **AstoPet** is an innovative AI designed to enhance user awareness about cybersecurity through interactive pet features. AstoPet not only scans and identifies phishing emails but also educates users about cybersecurity best practices through its **Combat Quiz** feature. The goal is to make learning about security engaging and fun while providing practical tools to protect users from online threats.
 
-![Media (3)](https://github.com/user-attachments/assets/e2bf0bfa-27cc-4f02-b5be-27fbfc934bbe)
+![Media (3)](https://github.com/user-attachments/assets/c9a43203-e974-408a-b974-d963737400e2)
 
-![lv_0_20250114185031](https://github.com/user-attachments/assets/6d85418d-aad5-4606-9a5a-e5c9f9cb255d)
-
+![lv_0_20250114185031](https://github.com/user-attachments/assets/55d69b2e-e6ae-489b-8cac-5a14664612bf)
 
 ## Features
 - **Phishing Email Scanner**:
