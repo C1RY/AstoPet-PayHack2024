@@ -27,7 +27,7 @@
   - Provides real-time feedback and analytics on user performance.
 
 ## Collaborators
-  Afif Jazimin [@L3T0x](https://github.com/L3T0x) - Project Manager, Presenter, Frontend Developer
-  Nur Ameera Chan [@ameera-chan](https://github.com/ameera-chan) - Frontend Developer, UI/UX Designer, Pitch Specialist
-  Muhammad Azri - Backend Developer, Backup Presenter
-  Alia Qistina - Backend Developer, UI/UX Designer
+- Afif Jazimin [@L3T0x](https://github.com/L3T0x) - Project Manager, Presenter, Frontend Developer
+- Nur Ameera Chan [@ameera-chan](https://github.com/ameera-chan) - Frontend Developer, UI/UX Designer, Pitch Specialist
+- Muhammad Azri - Backend Developer, Backup Presenter
+- Alia Qistina - Backend Developer, UI/UX Designer
