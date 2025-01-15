@@ -5,7 +5,8 @@
 
 ![Media (3)](https://github.com/user-attachments/assets/c9a43203-e974-408a-b974-d963737400e2)
 
-![lv_0_20250114185031](https://github.com/user-attachments/assets/55d69b2e-e6ae-489b-8cac-5a14664612bf)
+![lv_0_20250114185031](https://github.com/user-attachments/assets/d18e9f0a-ba48-4f29-9df7-763a33df5505)
+
 
 
 ## Features
