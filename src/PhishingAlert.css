@@ -1,0 +1,140 @@
+/* General Alert Styling */
+.phishing-alert {
+  font-family: 'Poppins', sans-serif; /* Modern font choice for elegance */
+  color: #ffffff;
+  background: rgba(25, 25, 25, 0.8); /* Dark glass-like background */
+  padding: 25px;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.8), 0px 0px 15px rgba(255, 50, 50, 0.5);
+  max-width: 650px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.phishing-alert:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 1), 0px 0px 20px rgba(255, 0, 0, 0.8);
+}
+
+/* Header Styling */
+.alert-header {
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 15px;
+}
+
+.alert-header h1 {
+  color: #ff6f6f; /* Vibrant red for alerts */
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-shadow: 0px 3px 5px rgba(255, 0, 0, 0.5);
+}
+
+.alert-header p {
+  font-size: 1rem;
+  color: #aaaaaa;
+  margin-top: 5px;
+}
+
+/* Content Sections */
+.alert-content section {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: rgba(35, 35, 35, 0.9); /* Subtle glass background */
+  border-radius: 10px;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: #ffc107; /* Gold for highlights */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.alert-content p,
+.alert-content ul li {
+  margin: 10px 0;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #eeeeee;
+}
+
+/* Specific Highlighting */
+.danger-text {
+  color: #ff3b3b;
+  font-weight: bold;
+}
+
+.highlight-text {
+  background: rgba(255, 193, 7, 0.2); /* Soft yellow highlight */
+  padding: 3px 8px;
+  border-radius: 5px;
+  color: #ffc107;
+  font-weight: bold;
+}
+
+.mismatch {
+  color: #ff6f6f;
+}
+
+.urgency-text {
+  color: #ffca28;
+  font-weight: bold;
+}
+
+.danger-link {
+  color: #ff5252;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.danger-link:hover {
+  color: #ff7979;
+  text-shadow: 0px 0px 10px rgba(255, 80, 80, 0.8);
+}
+
+/* Buttons */
+.learn-more,
+.delete-email {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 12px 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.learn-more {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  border: none;
+}
+
+.learn-more:hover {
+  background: linear-gradient(135deg, #0056b3, #003f7f);
+  transform: translateY(-3px);
+}
+
+.delete-email {
+  background: linear-gradient(135deg, #d32f2f, #f44336);
+  border: none;
+}
+
+.delete-email:hover {
+  background: linear-gradient(135deg, #b71c1c, #d32f2f);
+  transform: translateY(-3px);
+}
+
+/* Footer */
+.alert-footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #999999;
+}

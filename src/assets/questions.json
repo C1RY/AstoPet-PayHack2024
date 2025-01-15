@@ -1,0 +1,15 @@
+[
+    {
+      "question": "What is an example of phishing?",
+      "answers": ["Email Scam", "Cooking Recipe", "Bank Deposit", "Shopping"],
+      "correctAnswer": "Email Scam",
+      "type": "Fire"
+    },
+    {
+      "question": "How do you secure a password?",
+      "answers": ["Make it Short", "Use MFA", "Write it Down", "Ignore"],
+      "correctAnswer": "Use MFA",
+      "type": "Water"
+    }
+  ]
+  

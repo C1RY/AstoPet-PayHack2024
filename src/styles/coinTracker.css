@@ -1,0 +1,28 @@
+/* Custom styles for CoinTracker */
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  img {
+    transition: transform 0.3s;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 20px;
+    }
+  }
+  

@@ -1,0 +1,79 @@
+/* Root Styling */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  background: #000000;
+}
+
+/* Galactic Starfield */
+.galaxy-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, #001d3d, #000000 90%);
+  animation: stars 60s linear infinite, aurora 10s ease-in-out infinite alternate;
+}
+@keyframes stars {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -2000px -2000px;
+  }
+}
+@keyframes aurora {
+  0%, 100% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(180deg);
+  }
+}
+
+/* Neon Holographic Cards */
+.card-hover {
+  background: linear-gradient(135deg, rgba(0, 217, 255, 0.3), rgba(63, 81, 181, 0.8));
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 15px 40px rgba(0, 217, 255, 0.6);
+  backdrop-filter: blur(15px);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.card-hover:hover {
+  transform: rotateX(10deg) rotateY(10deg) scale(1.05);
+  box-shadow: 0px 25px 60px rgba(0, 217, 255, 0.9);
+}
+
+/* Globe Styling */
+.globe-container {
+  width: 100%;
+  height: 600px;
+  margin: 40px auto;
+}
+
+/* Floating Notifications */
+.notification {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 15px 20px;
+  background: rgba(31, 31, 31, 0.95);
+  color: #ffffff;
+  margin: 10px;
+  border-radius: 8px;
+  animation: slideDown 0.6s ease-out forwards;
+}
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
